@@ -285,8 +285,8 @@ $(document).ready(function () {
     let $portfolioBtn = $("[data-filter]");
 
     $($portfolioBtn).on('click', function (event) {
-        $($portfolioBtn).removeClass('portfolio-nav__active');
-        $(this).addClass('portfolio-nav__active');
+        $($portfolioBtn).removeClass('portfolio-nav--active');
+        $(this).addClass('portfolio-nav--active');
         event.preventDefault();
 
         let cat = $(this).data('filter');
