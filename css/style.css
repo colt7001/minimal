@@ -13,7 +13,7 @@
   font-display: swap;
   src: url("../fonts/Rajdhani-Bold.woff") format("woff"), url("../fonts/Rajdhani-Bold.woff2") format("woff2");
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-display: swap;
   src: url("../fonts/Rajdhani-Light.woff") format("woff"), url("../fonts/Rajdhani-Light.woff2") format("woff2");
   font-weight: 300;
-  font-style: light;
+  font-style: normal;
 }
 
 @font-face {
